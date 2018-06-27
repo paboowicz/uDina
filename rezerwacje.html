@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Hotel u Dina</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/bjqs-1.3.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/bjqs.css" />
+    </head>
+    <body>
+	
+	    <div class="topBg">
+		<div class="centerBox topCenter">
+		    <div class="headBox">
+			<div class="column284 column">
+			    
+			    <div class="logoBox"></div>				
+			    <div class="adressBox">
+				<p><span class="font12">HOTEL - RESTAURACJA</span><br />
+				    <span class="font18" >"U DINA"</span></p>
+				<p class="font12">
+				    37-600 Lubaczów, ul. Kraszewskiego 3<br/>
+				    tel. +48 16 632-98-60, 632-98-61<br/>
+				    fax +48 608-524-638<br/>
+				    <br/>
+				    email: recepcja@udina.pl
+				</p>
+			    </div>
+			    			    
+			</div>
+			<div class="column695 column">
+			    <nav id="mainmenu" >
+				<ul>
+				    <li class="active"><a href="index.html">HOTEL</a></li>
+				    <li><a href="restauracja.html">RESTAURACJA</a></li>
+				    <li><a href="galeria.html">GALERIA</a></li>
+				    <li><a href="kontakt.html">KONTAKT</a></li>
+				</ul>
+			    </nav>
+			    <div id="banner-fade">
+       
+				<ul class="bjqs">
+				  <? include('slides.php'); ?>
+				</ul>
+	 
+			    </div>
+			    
+			    <script type="text/javascript" src="js/slider.js"></script>
+			    
+			</div>			
+		    </div>
+		</div>		
+	    </div>
+	    <div class="middleStripe">
+		<p>Zapewniamy profesjonalną obsługę, miłą atmosferę. Zapraszamy</p>
+	    </div>
+	    <div class="bottomContainer">
+		<div class="centerBox">
+		    <div class="containerBox">
+			<div id="submenu" class="column column284">
+			    <ul>				
+				<li><a href="cennik.html">Cennik</a></li>
+				<li><a class="red" href="rezerwacje.html">Rezerwacje</a></li>
+				<li><a href="restauracja.html">Konferencje</a></li>
+			    </ul>
+			</div>
+			<div class="column column412 textContainer" >
+			    <? include('mailsupport.php'); ?>
+			    <form id="booking" method="POST">
+				<p>imie i nazwisko</p>
+				<input type="text" name="name_surname" />
+				<p>telefon</p>
+				<input type="text" name="phone" />
+				<p>adres email</p>
+				<input type="text" name="email" />
+				<p>wiadomość</p>
+				<textarea style="min-height: 200px;" name="msg" ></textarea>
+				<br/>
+				<button>wyślij wiadomość</button>
+			    </form>
+			    <br />
+			</div>
+			<div class="column column284" >
+			    <p class="mapTitle">Zobacz jak do nas dojechać!</p>
+			    <div id="map-canvas" ></div>
+			    
+			    
+			</div>
+			
+			<div style="clear: both"></div>
+			
+		    </div>   
+		    <footer>
+			<p><img src="images/icon.png" />design by LECH-KOM</p>
+			<ul>
+			    <li><a href="index.html">Hotel</a></li>
+			    <li><a href="pokoje.html">Pokoje</a></li>
+			    <li><a href="restauracja.html">Konferencje</a></li>
+			    <li><a href="restauracja.html">Restauracja</a></li>
+			    <li><a href="cennik.html">Cennik</a></li>
+			    <li><a href="rezerwacje.html">Rezerwacje</a></li>
+			    <li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			<div style="clear: both"></div>
+			<div style="background-color: white; color: black;">
+				<p style="width: 960px; text-align: center; color: black; background-color: white; margin: 0; padding: 10px; line-height: 14px; font-size: 12px; font-family: arial;">
+					Projekt "Poprawa Konkurencyjności Firmy Hotel – Restauracja „u Dina” Tadeusz Broś w Lubaczowie dzięki rozbudowie kompleksu i zakup jego wyposażenia” współfinansowany ze środków Unii Europejskiej z Europejskiego Funduszu Rozwoju Regionalnego oraz z Budżetu Państwa w ramach Regionalnego Programu Operacyjnego Województwa Podkarpackiego na lata 2007-2013<br />
+					<img src="images/logo1.jpg" alt="" height="80" /><img src="images/logo2.jpg" alt="" height="80" /><img src="images/logo3.jpg" alt="" height="80" /><br />
+					Inwestujemy w rozwój Województwa Podkarpackiego
+				</p>
+			</div>
+		    </footer>
+
+		</div>
+	    </div>
+	    
+	
+    </body>
+</html>

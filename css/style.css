@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #e7c8bb;
+    max-width: 100%;
+}
+
+img{
+    border: none;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topBg{
+    width: 100%;
+    height: 498px;
+    background: url(../images/top_bg.jpg) repeat-x;
+    margin: auto;
+}
+
+.bottomContainer{
+    width: 100%;
+    height: 498px;	
+}
+
+.topCenter{
+    height: 498px;
+    position: relative;
+}
+
+.column{
+    float: left;
+}
+
+.column284{
+    width: 284px;   
+    height: 100%;
+}
+
+.column412{
+    width: 412px;   
+    height: 100%;
+}
+
+.column695{
+    width: 695px; 
+    height: 100%;   
+}
+
+.headBox{
+    height: 432px;
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+}
+
+.logoBox{
+    width: 246px;
+    height: 181px;
+    background: url('../images/logo.png');
+    margin: 32px auto auto auto;
+}
+
+.adressBox{
+    width: 246px;
+    margin: auto;
+    
+    color: #9a3c39;
+}
+
+.adressBox p{
+    text-align: center;
+}
+
+.font12{
+    font-size: 12px;
+}
+
+
+
+.font18{
+    font-size: 18px;
+}
+
+
+
+.middleStripe{
+    width: 100%;
+    height: 45px;
+    background: #b82e16;
+    color: #ffffff;
+    font-family: serif;
+    
+}
+
+.middleStripe p{
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.centerBox{
+    width: 980px;
+    margin: auto;
+}
+
+#banner-fade{
+    margin-top: 2px;
+}
+
+#mainmenu{
+    max-width: 695px;
+    height: 58px;
+    position: absolute;
+    z-index: 1000;
+    width: 695px;
+}
+
+#mainmenu ul{
+    
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#mainmenu ul li{
+    display: block;
+    float: left;
+    width: 168px;
+    height: 100%;
+    margin-right: 1px;
+    margin-left: 4.5px;
+    font-size: 20px;
+    line-height: 58px;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(170,35,13,0.86);
+    cursor: pointer;
+}
+
+#mainmenu ul li:hover{
+     background: rgba(66,64,64,0.86);
+}
+
+#mainmenu ul li.active{
+     background: rgba(66,64,64,0.86);
+}
+
+#mainmenu ul li a{
+    
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.containerBox{
+    min-height: 280px;
+    background: #ffffff;
+}
+
+footer{
+    height: 32px;
+    background: #909090;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+footer ul{
+    
+    display: block;
+    width: 515px;
+    margin: auto;
+}
+
+footer p{
+    
+    display: block;
+    width: 170px;
+    float: left;
+    font-size: 10px;
+    color: #fff;
+    line-height: 31px;
+    margin-left: 5px;
+    
+}
+
+footer ul li {
+    float: left;
+    display: inline;
+    margin-right: 15px;
+    line-height: 32px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#submenu{
+    
+}
+
+#submenu ul{
+    margin-top: 23px;
+}
+
+#submenu ul li{
+    height: 38px;
+    line-height: 38px;
+    width: 190px;
+    
+    padding-left: 30px;
+}
+
+#submenu ul li a{
+    color: #909090;
+    font-size: 18px;
+    
+    width: 100%;
+}
+
+#map-canvas{
+    width: 256px;
+    height: 200px;
+    margin: auto;
+}
+
+.mapTitle{
+    color: #909090;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 33px;
+}
+
+.textContainer{
+    margin-top: 33px;
+}
+
+.textContainer p{
+    text-indent: 15px;
+    text-align: justify;
+}
+
+.red{
+    color: #b82e16 !important;
+}
+
+#booking input,#booking textarea{
+    width: 100%;
+}
+
+.galleryContainer{
+    background: #cecece;
+    height: 250px;
+    margin-top: 40px;
+    
+    position: relative;
+    overflow: hidden;
+    top: 2px;
+}
+
+div.galleryContainer div.car{
+    height: 100%;
+    min-width: 995px;
+    position: absolute;
+    top: 2px;
+}
+
+div.galleryContainer div.car ul{
+   
+}
+
+div.galleryContainer div.car ul li{
+   display: block;
+   float: left;
+   margin-left: 6px;
+   margin-top: 3px;
+}
+
+.slidesControls{
+    width: 85px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.slidesControls ul{
+    
+}
+
+.slidesControls ul li{
+    display: block;
+    width: 9px;
+    height: 9px;
+    background: url(../images/dot.png);
+    background-position: 0 9px;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.slidesControls ul li.active{
+    background-position: 0 0px;
+}
